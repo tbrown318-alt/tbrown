@@ -9,18 +9,12 @@ start
       num upkeep
       num total
    startup()
-   while mortgagePayment not equal to 0
-      MainLoop()
-   endwhile
-   finishUp()
-stop
+  
 
 startUp()
    output "Enter your mortgage payment or 0 to quit"
    input mtgPayment
-return
-
-mainLoop()
+   while mortgagePayment not equal to 0
    output "Enter utilities"
    input utilities
    output "Enter taxes"
