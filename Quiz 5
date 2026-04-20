@@ -1,0 +1,27 @@
+// this pseudocode describes the logic of how 
+// that would cause the mechanical arm to draw
+
+decelarations 
+  num lower arm = facing right
+  num raise pen
+  num move 1 inch forward = pen down
+  num turn 90 degrees to the right
+  num draw circle = clockwise
+
+Start 
+  input draw square  
+    lower arm = facing right
+    move 1 inch forwards
+    turn 90 degrees to the right
+    continue 4 times
+  output square
+
+  Input draw circle 
+    lower arm = facing right
+    draw circle = clockwise
+  output circle
+End 
+    
+    
+    
+  
